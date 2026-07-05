@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Value Types</title>
+</head>
+<body>
+    
+    <script>
+        // Task 37
+        function add(num1, num2) {
+            return num1 + num2;
+        }
+        let sum = add(10, 20);
+        console.log("Task 37:", sum);
+
+        // Task 38
+        function message() {
+            return "Welcome";
+        }
+        console.log("Task 38:", message());
+
+        // Task 39
+        function isEven(num) {
+            return num % 2 === 0;
+        }
+        console.log("Task 39:", isEven(14));
+
+        // Task 40
+        function getArray() {
+            return [1, 2, 3, 4, 5];
+        }
+        console.log("Task 40:", getArray());
+
+        // Task 41
+        function getObject() {
+            return {
+                name: "Ravi",
+                age: 18
+            };
+        }
+        console.log("Task 41:", getObject());
+
+        // Task 42
+        function printSum(num1, num2) {
+            console.log("Task 42:", num1 + num2);
+        }
+        printSum(7, 3);
+    </script>
+</body>
+</html>

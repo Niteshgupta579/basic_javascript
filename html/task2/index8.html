@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Function Tasks</title>
+</head>
+<body>
+   
+    <script>
+        // ==========================
+        // Task 31
+        // Function without parameters
+        // ==========================
+        function sayHello() {
+            console.log("Hello");
+        }
+
+        sayHello();
+
+
+        // ==========================
+        // Task 32
+        // Function with one parameter
+        // ==========================
+        function printName(name) {
+            console.log("Name:", name);
+        }
+
+        printName("Amit");
+
+
+        // ==========================
+        // Task 33
+        // Function with two parameters
+        // ==========================
+        function addNumbers(num1, num2) {
+            console.log("Sum:", num1 + num2);
+        }
+
+        addNumbers(12, 8);
+
+
+        // ==========================
+        // Task 34
+        // Function with three parameters
+        // ==========================
+        function findLargest(a, b, c) {
+            let largest = Math.max(a, b, c);
+            console.log("Largest Number:", largest);
+        }
+
+        findLargest(5, 15, 10);
+
+
+        // ==========================
+        // Task 35
+        // Default parameter
+        // ==========================
+        function greet(name = "Guest") {
+            console.log("Hello, " + name);
+        }
+
+        greet();
+        greet("Nitesh");
+
+
+        // ==========================
+        // Task 36
+        // Rest parameters
+        // ==========================
+        function sumNumbers(...numbers) {
+            let sum = 0;
+
+            for (let num of numbers) {
+                sum += num;
+            }
+
+            console.log("Total Sum:", sum);
+        }
+
+        sumNumbers(2, 4, 6);
+    </script>
+</body>
+</html>
