@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nums= [1,2,3,4,5,6,7,8]
+        let nu = nums.filter((item)=>item%2==0)
+        console.log(nu);
+          let nums1= [1,2,3,4,5,6,7,8]
+        let nu1 = nums1.filter((item)=>item%2==1)
+        console.log(nu1);
+        let arr =[10,30,55,70,90]
+        let arr1 = arr.filter((item)=> item>50)
+        console.log(arr1);
+        let arr2 =[5,10,15,25,30]
+        let arr3= arr2.filter((item)=>item<20)
+        console.log(arr3);
+        let arr4 =[-5,10,-2,8]
+        let Arr = arr4.filter((item)=>item>0)
+        console.log(Arr);
+        let arr5 =[-5,10,-2, 8]
+        let ARR = arr5.filter((item)=> item<-1)
+        console.log(ARR)
+
+       let arrame = ["Rohan", "om", "Rahul", "Sneha"];
+let ro = arrame.filter((item) => item.length>=5)
+console.log(ro);
+        let num = [10,15,20,25,33]
+        let number= num.filter((item)=>item%5==0)
+        console.log(number);
+        let nums3 = [1, 2, 2, 3, 3, 4];
+
+let uniqueNums = nums3.filter((item, index) => {
+    return nums3.indexOf(item) === index;
+});
+
+console.log(uniqueNums);
+        
+        
+    </script>
+</body>
+</html>

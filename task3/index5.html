@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nums = [1,2,3,4,5]
+        let number = nums.reduce((acc,item)=>{
+    return acc+item;},0)
+    console.log(number)
+    let num1 =[2,3,4]
+    let nu = num1.reduce((acc,item)=>{
+        return acc*item;
+    },1)
+    console.log(nu);
+    let num2 =[5,10,15,20]
+    let Num2 = num2.reduce((acc,item)=>{
+        return item>acc? item:acc;
+    })
+    console.log(Num2)
+     let num3 =[5,10,15,20]
+    let Num3 = num3.reduce((acc,item)=>{
+        return item<acc? item:acc;
+    })
+    console.log(Num3)
+    
+    </script>
+</body>
+</html>

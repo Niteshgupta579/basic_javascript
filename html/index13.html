@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let arr =["banana ","cherry",3,4,5,6]
+        arr.forEach((item,indx,array)=>{
+            console.log(item,indx,array)
+         })
+        //
+        //let arr1 =[1,2,3,4,5,6,7,9,10]
+        //let Arr=arr1.filter((item)=> item%2==0)
+        //console.log(Arr)
+        let arr2=[1,2,3,4,5,6,7,8,9,10,15]
+        let Arr1= arr2.filter((item)=> item%5==0)
+        console.log(Arr1)
+        // map
+        let arr4 =[1,2,3,4,5,6,7,8]
+        let ARR=arr4.map((item)=>item+10)
+        console.log(ARR)
+    </script>
+</body>
+</html>
