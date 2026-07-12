@@ -1,0 +1,134 @@
+.body{
+  min-height: 700px;
+  width: 1300px;
+  
+  margin: 0px auto;
+}
+.logo{
+  height: 60px;
+  width: 1400px;
+  background: white;
+  box-sizing: border-box;
+  float: left;
+}
+.logo1{
+  height: 57px;
+  width: 700px;
+  box-sizing: border-box;
+  background: white;
+  float: left;
+}
+.logo2{
+  height: 57px;
+  width: 700px;
+  
+  padding-left: 60px;
+  box-sizing: border-box;
+  background: white;
+  float: left;
+}
+.circ{
+  height: 57px;
+  width: 80px;
+  float:left;
+  text-align: right;
+  line-height: 57px;
+}
+.a{
+  height: 25px;
+  width: 25px;
+  text-align: right;
+  margin-left: 50px;
+  margin-top: 16px;
+  border-radius: 50px;
+  background: blue;
+  float: left;
+
+  
+}
+.list{
+  margin-left: 2px;
+}
+.your{
+  height: 57px;
+  width: 500px;
+  float: left;
+  text-align: left;
+  line-height: 57px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.a1{
+ list-style: none;
+ padding: 0;
+ margin: 0; 
+ float: left;
+ margin-left: 20px;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(230, 219, 219);
+}
+.a{
+  color:blueviolet
+}
+.left{
+  height: 630px;
+  width: 600px;
+  float: left;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.typewriter {
+  margin-top: 50px;
+  display: inline-block;
+  min-width: 300px; 
+  padding-left: 50px;
+  /* Apne text ke hisaab se adjust karein */
+}
+.ine{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 30px;
+  height:190px ;
+  width: 700px;
+  background: rgb(255, 254, 254);
+}
+.outerone{
+  
+  height:150px;
+  width: 700px;
+}
+.text{
+  text-align: left;
+  padding-left: 50px;
+  font-size: 50px;
+  color: #0d1f51;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+.text1{
+  color: rgb(228, 207, 207);
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.btn{
+  background:#4646ce ;
+  color:white;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 50px;
+  margin-top: 30px;
+box-sizing: border-box;
+}
+.right{
+  box-sizing: border-box;
+}
